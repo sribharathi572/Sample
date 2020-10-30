@@ -50,9 +50,9 @@ namespace My_first_project
                 c.Rating = int.Parse(Console.ReadLine());
                 p.Add(new Product() { ProductId = ProdId, ProductName = c.ProductName, Price = c.Price, Rating = c.Rating });
                 c.CompareTo(c);
-                foreach (object o in p)
+                foreach (object e in p)
                 {
-                    Console.WriteLine(o);
+                    Console.WriteLine(e);
                 }
                 Console.ReadLine();
             }
